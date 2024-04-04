@@ -212,7 +212,7 @@ now for the magic run:
 
 If you have been successful you will see this appear in your project!
 
-![File structure](https://file%2B.vscode-resource.vscode-cdn.net/var/folders/0p/9d9q90vd3nj469llpvg4rpcm0000gn/T/TemporaryItems/NSIRD_screencaptureui_PZhz5m/Screenshot%202024-04-04%20at%2017.05.05.png?version%3D1712246711252)
+![File structure](./file-structure.png)
 
 ## Publishing the Library!
 
