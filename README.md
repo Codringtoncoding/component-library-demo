@@ -22,6 +22,7 @@ I currently use node v20. It's best to have that installed locally. You can use 
 
 It is super important we keep this folder structure as we need to export our components at each level so they can be consumed later on in the correct way.
 
+```
 .
 ├── src
 │ ├── components
@@ -32,6 +33,7 @@ It is super important we keep this folder structure as we need to export our com
 │ └── index.ts
 ├── package.json
 └── package-lock.json
+```
 
 ### Add typescript
 
@@ -193,6 +195,7 @@ Here is an example of mine
 
 ## Building the Library!
 
+```
 .
 ├── src
 │ ├── components
@@ -205,6 +208,7 @@ Here is an example of mine
 ├── package-lock.json
 ├── tsconfig.json
 └── rollup.config.js
+```
 
 now for the magic run:
 
