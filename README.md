@@ -7,7 +7,6 @@ This Repo contains the necessary steps in the readme to create your own componen
 - NPM
 - Node
 - Github account
-- Good terminal setup
 - Vscode
 - Basic knowledge of React + Typescript. (We will only be creating 1 component)
 
@@ -15,7 +14,7 @@ I currently use node v20. It's best to have that installed locally. You can use 
 
 ## Setup
 
-1. `npm init` press enter and take all the defaults for now at each step.
+1. run `npm init -y` or `npm init` press enter and take all the defaults for now at each step.
 2. `npm install react typescript @types/react --save-dev`
 
 ## Folder structure
@@ -38,8 +37,9 @@ It is super important we keep this folder structure as we need to export our com
 ### Add typescript
 
 `npx tsc --init`
+`npm i -D tslib`
 
-add this config to your file:
+add this config to your `ts.config` file:
 
 ```
 {
@@ -153,44 +153,44 @@ Here is an example of mine
 
 ```
 {
-"name": "@Codringtoncoding/design-system-demo",
-"publishConfig": {
-"registry": "https://npm.pkg.github.com/Codringtoncoding"
-},
-"version": "1.0.0",
-"description": "Design-system-demo",
-"scripts": {
-"test": "test",
-//make sure to add the script here
-"rollup": "rollup -c"
-},
-"repository": {
-"type": "git",
-"url": "design-system-demo"
-},
-"keywords": [
-"design",
-"system"
-],
-"author": "Humphrey Codrington",
-"license": "ISC",
-"devDependencies": {
-"@rollup/plugin-commonjs": "^25.0.7",
-"@rollup/plugin-node-resolve": "^15.2.3",
-"@rollup/plugin-typescript": "^11.1.6",
-"@types/react": "^18.2.74",
-"react": "^18.2.0",
-"rollup": "^4.14.0",
-"rollup-plugin-dts": "^6.1.0",
-"typescript": "^5.4.3"
-},
-//were are interested in these
-"main": "dist/cjs/index.js",
-"module": "dist/esm/index.js",
-"files": [
-"dist"
-],
-"types": "dist/index.d.ts"
+  "name": "@Codringtoncoding/design-system-demo",
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/Codringtoncoding"
+  },
+  "version": "1.0.0",
+  "description": "Design-system-demo",
+  "scripts": {
+  "test": "test",
+  //make sure to add the script here
+  "rollup": "rollup -c"
+  },
+  "repository": {
+  "type": "git",
+  "url": "design-system-demo"
+  },
+  "keywords": [
+  "design",
+  "system"
+  ],
+  "author": "Humphrey Codrington",
+  "license": "ISC",
+  "devDependencies": {
+  "@rollup/plugin-commonjs": "^25.0.7",
+  "@rollup/plugin-node-resolve": "^15.2.3",
+  "@rollup/plugin-typescript": "^11.1.6",
+  "@types/react": "^18.2.74",
+  "react": "^18.2.0",
+  "rollup": "^4.14.0",
+  "rollup-plugin-dts": "^6.1.0",
+  "typescript": "^5.4.3"
+  },
+  //were are interested in these
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+  "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
 ```
 
