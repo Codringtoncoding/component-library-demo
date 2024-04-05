@@ -161,6 +161,7 @@ Here is an example of mine
 "description": "Design-system-demo",
 "scripts": {
 "test": "test",
+//make sure to add the script here
 "rollup": "rollup -c"
 },
 "repository": {
