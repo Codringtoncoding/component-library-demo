@@ -228,7 +228,7 @@ dist
 mode_modules
 ```
 
-2. update the package.json with your cred similar to what I have done above
+2. update the package.json with your credentials similar to what I have done above
 
 `package.json`
 
@@ -244,8 +244,9 @@ mode_modules
 3. We need to configure our local install of NPM to publish to your github account. If you already have one you need to open and add the following:
 
 - open your terminal at the root and type `open -e ~/.npmrc` This should open your file so you can copy in the details below and save it.
-- if you do not have one you need to create one by running `touch .npmrc` and run the command above to open and paste in the below info with your creds.
+- if you do not have one you need to create one by running `touch .npmrc` and run the command above to open and paste in the below info with your credentials.
 - We need to generate a new personal access token with `write:packages` which can be done [here](https://github.com/settings/tokens)
+- Note make sure your github username is in lowercase here.
 
 ```
     registry=https://registry.npmjs.org/
