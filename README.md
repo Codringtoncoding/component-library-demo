@@ -4,6 +4,7 @@ This Repo contains the necessary steps in the readme to create your own componen
 
 ## Prerequisites
 
+- This setup is for Mac OS only so far. I will add a windows setup at a later date.
 - NPM
 - Node
 - Github account
@@ -15,8 +16,8 @@ I currently use node v20. It's best to have that installed locally. You can use 
 ## Setup
 
 1. Open a new folder and `cd` into this folder.
-1. Run `npm init -y` or `npm init` press enter and take all the defaults for now at each step.
-1. Run `npm install react typescript @types/react --save-dev`
+2. Run `npm init -y` or `npm init` press enter and take all the defaults for now at each step.
+3. Run `npm install react typescript @types/react --save-dev`
 
 ## Folder structure
 
