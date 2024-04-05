@@ -161,6 +161,7 @@ Here is an example of mine
   "description": "Design-system-demo",
   "scripts": {
     "test": "test",
+    //make sure to add the script here
     "rollup": "rollup -c"
   },
   "repository": {
@@ -183,6 +184,7 @@ Here is an example of mine
     "rollup-plugin-dts": "^6.1.0",
     "typescript": "^5.4.3"
   },
+  //were are interested in these
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -190,7 +192,6 @@ Here is an example of mine
   ],
   "types": "dist/index.d.ts"
 }
-
 ```
 
 ## Building the Library!
