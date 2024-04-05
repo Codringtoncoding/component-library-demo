@@ -14,8 +14,9 @@ I currently use node v20. It's best to have that installed locally. You can use 
 
 ## Setup
 
-1. run `npm init -y` or `npm init` press enter and take all the defaults for now at each step.
-2. `npm install react typescript @types/react --save-dev`
+1. Open a new folder and `cd` into this folder.
+1. Run `npm init -y` or `npm init` press enter and take all the defaults for now at each step.
+1. Run `npm install react typescript @types/react --save-dev`
 
 ## Folder structure
 
