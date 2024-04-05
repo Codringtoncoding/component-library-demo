@@ -259,7 +259,7 @@ mode_modules
 ## Using our library!
 
 1. lets create a new create react app
-   `npx create-react-app my-app --template typescript`
+   `npm create vite@latest ./ -- --template react-ts`
 
 2. Run the app `npm run start`
 
